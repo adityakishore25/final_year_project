@@ -1,0 +1,1689 @@
+{
+    "1898735444088517087": {
+        "__typename": "Tweet",
+        "rest_id": "1898735444088517087",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNjY3NTI2NjI0ODMxNzM3ODU3",
+                    "rest_id": "1667526624831737857",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Sat Jun 10 13:38:36 +0000 2023",
+                        "default_profile": true,
+                        "default_profile_image": false,
+                        "description": "Account of Indian Cricket team. #TeamIndia. Parody Account. Get Updates related to Team India \ud83c\uddee\ud83c\uddf3.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "bcci.tv",
+                                        "expanded_url": "http://bcci.tv",
+                                        "url": "https://t.co/TsOHAbXc0o",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 652,
+                        "followers_count": 35711,
+                        "friends_count": 62,
+                        "has_custom_timelines": false,
+                        "is_translator": false,
+                        "listed_count": 10,
+                        "location": "",
+                        "media_count": 1503,
+                        "name": "Indian Cricket Team",
+                        "normal_followers_count": 35711,
+                        "pinned_tweet_ids_str": [
+                            "1898771108142141483"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1667526624831737857/1741608335",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1803645486366347264/WpkknEZ5_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "incricketteam",
+                        "statuses_count": 3030,
+                        "translator_type": "none",
+                        "url": "https://t.co/TsOHAbXc0o",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1898735444088517087"
+            ],
+            "editable_until_msecs": "1741532381000",
+            "is_edit_eligible": true,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "count": "957436",
+            "state": "EnabledWithCount"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "legacy": {
+            "bookmark_count": 699,
+            "bookmarked": false,
+            "created_at": "Sun Mar 09 13:59:41 +0000 2025",
+            "conversation_id_str": "1898735444088517087",
+            "display_text_range": [
+                0,
+                196
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            120,
+                            132
+                        ],
+                        "text": "RohitSharma"
+                    },
+                    {
+                        "indices": [
+                            165,
+                            173
+                        ],
+                        "text": "INDvsNZ"
+                    },
+                    {
+                        "indices": [
+                            176,
+                            196
+                        ],
+                        "text": "ChampionsTrophy2025"
+                    }
+                ],
+                "media": [
+                    {
+                        "display_url": "pic.x.com/IW09z234PV",
+                        "expanded_url": "https://x.com/incricketteam/status/1898735444088517087/photo/1",
+                        "id_str": "1898735440397471744",
+                        "indices": [
+                            197,
+                            220
+                        ],
+                        "media_key": "3_1898735440397471744",
+                        "media_url_https": "https://pbs.twimg.com/media/Glmp0rdWEAA79Bf.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/IW09z234PV",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1172,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 687,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 389,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1172,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 542,
+                                    "w": 1172,
+                                    "h": 656
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 284,
+                                    "w": 1172,
+                                    "h": 1172
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 202,
+                                    "w": 1172,
+                                    "h": 1336
+                                },
+                                {
+                                    "x": 74,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1172,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1898735440397471744"
+                            }
+                        }
+                    }
+                ],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/IW09z234PV",
+                        "expanded_url": "https://x.com/incricketteam/status/1898735444088517087/photo/1",
+                        "id_str": "1898735440397471744",
+                        "indices": [
+                            197,
+                            220
+                        ],
+                        "media_key": "3_1898735440397471744",
+                        "media_url_https": "https://pbs.twimg.com/media/Glmp0rdWEAA79Bf.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/IW09z234PV",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1172,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 687,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 389,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1172,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 542,
+                                    "w": 1172,
+                                    "h": 656
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 284,
+                                    "w": 1172,
+                                    "h": 1172
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 202,
+                                    "w": 1172,
+                                    "h": 1336
+                                },
+                                {
+                                    "x": 74,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1172,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1898735440397471744"
+                            }
+                        }
+                    }
+                ]
+            },
+            "favorite_count": 36703,
+            "favorited": false,
+            "full_text": "\ud835\udde7\ud835\uddf5\ud835\uddf2\ud835\ude06 \ud835\ude00\ud835\uddee\ud835\uddf6\ud835\uddf1 \ud835\uddf5\ud835\uddf2\u2019\ud835\ude00 \ud835\ude02\ud835\uddfb\ud835\uddf3\ud835\uddf6\ud835\ude01. \ud835\udde7\ud835\uddf5\ud835\uddf2\ud835\ude06 \ud835\uddf1\ud835\uddfc\ud835\ude02\ud835\uddef\ud835\ude01\ud835\uddf2\ud835\uddf1 \ud835\uddf5\ud835\uddf6\ud835\uddfa. \ud83e\udd2b\n\n\ud83c\uddee\ud83c\uddf3 The \u2018\ud835\uddfa\ud835\uddfc\ud835\ude00\ud835\ude01 \ud835\ude02\ud835\uddfb\ud835\uddf5\ud835\uddf2\ud835\uddee\ud835\uddf9\ud835\ude01\ud835\uddf5\ud835\ude06 \ud835\uddf0\ud835\uddee\ud835\uddfd\ud835\ude01\ud835\uddee\ud835\uddf6\ud835\uddfb\u2019 carrying 1.4 billion dreams at big stage!  \n\n#RohitSharma lets his bat do the talking!\ud83c\udfcf\ud83d\udcaa\n\n#INDvsNZ | #ChampionsTrophy2025 https://t.co/IW09z234PV",
+            "is_quote_status": false,
+            "lang": "en",
+            "possibly_sensitive": false,
+            "possibly_sensitive_editable": true,
+            "quote_count": 112,
+            "reply_count": 216,
+            "retweet_count": 3749,
+            "retweeted": false,
+            "user_id_str": "1667526624831737857",
+            "id_str": "1898735444088517087"
+        }
+    },
+    "1900222981261189277": {
+        "__typename": "Tweet",
+        "rest_id": "1900222981261189277",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNjY3NTI2NjI0ODMxNzM3ODU3",
+                    "rest_id": "1667526624831737857",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Sat Jun 10 13:38:36 +0000 2023",
+                        "default_profile": true,
+                        "default_profile_image": false,
+                        "description": "Account of Indian Cricket team. #TeamIndia. Parody Account. Get Updates related to Team India \ud83c\uddee\ud83c\uddf3.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "bcci.tv",
+                                        "expanded_url": "http://bcci.tv",
+                                        "url": "https://t.co/TsOHAbXc0o",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 652,
+                        "followers_count": 35713,
+                        "friends_count": 62,
+                        "has_custom_timelines": false,
+                        "is_translator": false,
+                        "listed_count": 10,
+                        "location": "",
+                        "media_count": 1503,
+                        "name": "Indian Cricket Team",
+                        "normal_followers_count": 35713,
+                        "pinned_tweet_ids_str": [
+                            "1898771108142141483"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1667526624831737857/1741608335",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1803645486366347264/WpkknEZ5_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "incricketteam",
+                        "statuses_count": 3030,
+                        "translator_type": "none",
+                        "url": "https://t.co/TsOHAbXc0o",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1900222981261189277"
+            ],
+            "editable_until_msecs": "1741887037000",
+            "is_edit_eligible": true,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "count": "1314387",
+            "state": "EnabledWithCount"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "legacy": {
+            "bookmark_count": 1079,
+            "bookmarked": false,
+            "created_at": "Thu Mar 13 16:30:37 +0000 2025",
+            "conversation_id_str": "1900222981261189277",
+            "display_text_range": [
+                0,
+                72
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            62,
+                            72
+                        ],
+                        "text": "TeamIndia"
+                    }
+                ],
+                "media": [
+                    {
+                        "display_url": "pic.x.com/0HZ7jiNshm",
+                        "expanded_url": "https://x.com/incricketteam/status/1900222981261189277/photo/1",
+                        "id_str": "1900222977775706112",
+                        "indices": [
+                            73,
+                            96
+                        ],
+                        "media_key": "3_1900222977775706112",
+                        "media_url_https": "https://pbs.twimg.com/media/Gl7yuwBbIAAiqaA.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/0HZ7jiNshm",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 192,
+                                        "y": 482,
+                                        "h": 129,
+                                        "w": 129
+                                    },
+                                    {
+                                        "x": 183,
+                                        "y": 689,
+                                        "h": 142,
+                                        "w": 142
+                                    },
+                                    {
+                                        "x": 301,
+                                        "y": 717,
+                                        "h": 93,
+                                        "w": 93
+                                    },
+                                    {
+                                        "x": 299,
+                                        "y": 942,
+                                        "h": 97,
+                                        "w": 97
+                                    },
+                                    {
+                                        "x": 191,
+                                        "y": 40,
+                                        "h": 135,
+                                        "w": 135
+                                    },
+                                    {
+                                        "x": 177,
+                                        "y": 1141,
+                                        "h": 152,
+                                        "w": 152
+                                    },
+                                    {
+                                        "x": 181,
+                                        "y": 232,
+                                        "h": 148,
+                                        "w": 148
+                                    },
+                                    {
+                                        "x": 176,
+                                        "y": 904,
+                                        "h": 143,
+                                        "w": 143
+                                    }
+                                ]
+                            },
+                            "medium": {
+                                "faces": [
+                                    {
+                                        "x": 170,
+                                        "y": 428,
+                                        "h": 114,
+                                        "w": 114
+                                    },
+                                    {
+                                        "x": 162,
+                                        "y": 612,
+                                        "h": 126,
+                                        "w": 126
+                                    },
+                                    {
+                                        "x": 267,
+                                        "y": 637,
+                                        "h": 82,
+                                        "w": 82
+                                    },
+                                    {
+                                        "x": 265,
+                                        "y": 837,
+                                        "h": 86,
+                                        "w": 86
+                                    },
+                                    {
+                                        "x": 169,
+                                        "y": 35,
+                                        "h": 120,
+                                        "w": 120
+                                    },
+                                    {
+                                        "x": 157,
+                                        "y": 1014,
+                                        "h": 135,
+                                        "w": 135
+                                    },
+                                    {
+                                        "x": 160,
+                                        "y": 206,
+                                        "h": 131,
+                                        "w": 131
+                                    },
+                                    {
+                                        "x": 156,
+                                        "y": 803,
+                                        "h": 127,
+                                        "w": 127
+                                    }
+                                ]
+                            },
+                            "small": {
+                                "faces": [
+                                    {
+                                        "x": 96,
+                                        "y": 242,
+                                        "h": 64,
+                                        "w": 64
+                                    },
+                                    {
+                                        "x": 92,
+                                        "y": 347,
+                                        "h": 71,
+                                        "w": 71
+                                    },
+                                    {
+                                        "x": 151,
+                                        "y": 361,
+                                        "h": 46,
+                                        "w": 46
+                                    },
+                                    {
+                                        "x": 150,
+                                        "y": 474,
+                                        "h": 48,
+                                        "w": 48
+                                    },
+                                    {
+                                        "x": 96,
+                                        "y": 20,
+                                        "h": 68,
+                                        "w": 68
+                                    },
+                                    {
+                                        "x": 89,
+                                        "y": 574,
+                                        "h": 76,
+                                        "w": 76
+                                    },
+                                    {
+                                        "x": 91,
+                                        "y": 116,
+                                        "h": 74,
+                                        "w": 74
+                                    },
+                                    {
+                                        "x": 88,
+                                        "y": 455,
+                                        "h": 72,
+                                        "w": 72
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "x": 192,
+                                        "y": 482,
+                                        "h": 129,
+                                        "w": 129
+                                    },
+                                    {
+                                        "x": 183,
+                                        "y": 689,
+                                        "h": 142,
+                                        "w": 142
+                                    },
+                                    {
+                                        "x": 301,
+                                        "y": 717,
+                                        "h": 93,
+                                        "w": 93
+                                    },
+                                    {
+                                        "x": 299,
+                                        "y": 942,
+                                        "h": 97,
+                                        "w": 97
+                                    },
+                                    {
+                                        "x": 191,
+                                        "y": 40,
+                                        "h": 135,
+                                        "w": 135
+                                    },
+                                    {
+                                        "x": 177,
+                                        "y": 1141,
+                                        "h": 152,
+                                        "w": 152
+                                    },
+                                    {
+                                        "x": 181,
+                                        "y": 232,
+                                        "h": 148,
+                                        "w": 148
+                                    },
+                                    {
+                                        "x": 176,
+                                        "y": 904,
+                                        "h": 143,
+                                        "w": 143
+                                    }
+                                ]
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1350,
+                                "w": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 960,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 544,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 1350,
+                            "width": 1080,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 69,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 405,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1900222977775706112"
+                            }
+                        }
+                    }
+                ],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/0HZ7jiNshm",
+                        "expanded_url": "https://x.com/incricketteam/status/1900222981261189277/photo/1",
+                        "id_str": "1900222977775706112",
+                        "indices": [
+                            73,
+                            96
+                        ],
+                        "media_key": "3_1900222977775706112",
+                        "media_url_https": "https://pbs.twimg.com/media/Gl7yuwBbIAAiqaA.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/0HZ7jiNshm",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 192,
+                                        "y": 482,
+                                        "h": 129,
+                                        "w": 129
+                                    },
+                                    {
+                                        "x": 183,
+                                        "y": 689,
+                                        "h": 142,
+                                        "w": 142
+                                    },
+                                    {
+                                        "x": 301,
+                                        "y": 717,
+                                        "h": 93,
+                                        "w": 93
+                                    },
+                                    {
+                                        "x": 299,
+                                        "y": 942,
+                                        "h": 97,
+                                        "w": 97
+                                    },
+                                    {
+                                        "x": 191,
+                                        "y": 40,
+                                        "h": 135,
+                                        "w": 135
+                                    },
+                                    {
+                                        "x": 177,
+                                        "y": 1141,
+                                        "h": 152,
+                                        "w": 152
+                                    },
+                                    {
+                                        "x": 181,
+                                        "y": 232,
+                                        "h": 148,
+                                        "w": 148
+                                    },
+                                    {
+                                        "x": 176,
+                                        "y": 904,
+                                        "h": 143,
+                                        "w": 143
+                                    }
+                                ]
+                            },
+                            "medium": {
+                                "faces": [
+                                    {
+                                        "x": 170,
+                                        "y": 428,
+                                        "h": 114,
+                                        "w": 114
+                                    },
+                                    {
+                                        "x": 162,
+                                        "y": 612,
+                                        "h": 126,
+                                        "w": 126
+                                    },
+                                    {
+                                        "x": 267,
+                                        "y": 637,
+                                        "h": 82,
+                                        "w": 82
+                                    },
+                                    {
+                                        "x": 265,
+                                        "y": 837,
+                                        "h": 86,
+                                        "w": 86
+                                    },
+                                    {
+                                        "x": 169,
+                                        "y": 35,
+                                        "h": 120,
+                                        "w": 120
+                                    },
+                                    {
+                                        "x": 157,
+                                        "y": 1014,
+                                        "h": 135,
+                                        "w": 135
+                                    },
+                                    {
+                                        "x": 160,
+                                        "y": 206,
+                                        "h": 131,
+                                        "w": 131
+                                    },
+                                    {
+                                        "x": 156,
+                                        "y": 803,
+                                        "h": 127,
+                                        "w": 127
+                                    }
+                                ]
+                            },
+                            "small": {
+                                "faces": [
+                                    {
+                                        "x": 96,
+                                        "y": 242,
+                                        "h": 64,
+                                        "w": 64
+                                    },
+                                    {
+                                        "x": 92,
+                                        "y": 347,
+                                        "h": 71,
+                                        "w": 71
+                                    },
+                                    {
+                                        "x": 151,
+                                        "y": 361,
+                                        "h": 46,
+                                        "w": 46
+                                    },
+                                    {
+                                        "x": 150,
+                                        "y": 474,
+                                        "h": 48,
+                                        "w": 48
+                                    },
+                                    {
+                                        "x": 96,
+                                        "y": 20,
+                                        "h": 68,
+                                        "w": 68
+                                    },
+                                    {
+                                        "x": 89,
+                                        "y": 574,
+                                        "h": 76,
+                                        "w": 76
+                                    },
+                                    {
+                                        "x": 91,
+                                        "y": 116,
+                                        "h": 74,
+                                        "w": 74
+                                    },
+                                    {
+                                        "x": 88,
+                                        "y": 455,
+                                        "h": 72,
+                                        "w": 72
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "x": 192,
+                                        "y": 482,
+                                        "h": 129,
+                                        "w": 129
+                                    },
+                                    {
+                                        "x": 183,
+                                        "y": 689,
+                                        "h": 142,
+                                        "w": 142
+                                    },
+                                    {
+                                        "x": 301,
+                                        "y": 717,
+                                        "h": 93,
+                                        "w": 93
+                                    },
+                                    {
+                                        "x": 299,
+                                        "y": 942,
+                                        "h": 97,
+                                        "w": 97
+                                    },
+                                    {
+                                        "x": 191,
+                                        "y": 40,
+                                        "h": 135,
+                                        "w": 135
+                                    },
+                                    {
+                                        "x": 177,
+                                        "y": 1141,
+                                        "h": 152,
+                                        "w": 152
+                                    },
+                                    {
+                                        "x": 181,
+                                        "y": 232,
+                                        "h": 148,
+                                        "w": 148
+                                    },
+                                    {
+                                        "x": 176,
+                                        "y": 904,
+                                        "h": 143,
+                                        "w": 143
+                                    }
+                                ]
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1350,
+                                "w": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 960,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 544,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 1350,
+                            "width": 1080,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 69,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 405,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1900222977775706112"
+                            }
+                        }
+                    }
+                ]
+            },
+            "favorite_count": 48230,
+            "favorited": false,
+            "full_text": "2027 World Cup could be the last for these Indian stars\u00a0\u00a0\ud83c\uddee\ud83c\uddf3\ud83e\udd79\n\n#TeamIndia https://t.co/0HZ7jiNshm",
+            "is_quote_status": false,
+            "lang": "en",
+            "possibly_sensitive": false,
+            "possibly_sensitive_editable": true,
+            "quote_count": 149,
+            "reply_count": 593,
+            "retweet_count": 3134,
+            "retweeted": false,
+            "user_id_str": "1667526624831737857",
+            "id_str": "1900222981261189277"
+        }
+    },
+    "1898906997132570680": {
+        "__typename": "Tweet",
+        "rest_id": "1898906997132570680",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNjY3NTI2NjI0ODMxNzM3ODU3",
+                    "rest_id": "1667526624831737857",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Sat Jun 10 13:38:36 +0000 2023",
+                        "default_profile": true,
+                        "default_profile_image": false,
+                        "description": "Account of Indian Cricket team. #TeamIndia. Parody Account. Get Updates related to Team India \ud83c\uddee\ud83c\uddf3.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "bcci.tv",
+                                        "expanded_url": "http://bcci.tv",
+                                        "url": "https://t.co/TsOHAbXc0o",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 652,
+                        "followers_count": 35711,
+                        "friends_count": 62,
+                        "has_custom_timelines": false,
+                        "is_translator": false,
+                        "listed_count": 10,
+                        "location": "",
+                        "media_count": 1503,
+                        "name": "Indian Cricket Team",
+                        "normal_followers_count": 35711,
+                        "pinned_tweet_ids_str": [
+                            "1898771108142141483"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1667526624831737857/1741608335",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1803645486366347264/WpkknEZ5_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "incricketteam",
+                        "statuses_count": 3030,
+                        "translator_type": "none",
+                        "url": "https://t.co/TsOHAbXc0o",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1898906997132570680"
+            ],
+            "editable_until_msecs": "1741573282000",
+            "is_edit_eligible": true,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "count": "869277",
+            "state": "EnabledWithCount"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "legacy": {
+            "bookmark_count": 3424,
+            "bookmarked": false,
+            "created_at": "Mon Mar 10 01:21:22 +0000 2025",
+            "conversation_id_str": "1898906997132570680",
+            "display_text_range": [
+                0,
+                231
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            83,
+                            93
+                        ],
+                        "text": "TeamIndia"
+                    },
+                    {
+                        "indices": [
+                            200,
+                            208
+                        ],
+                        "text": "INDvsNZ"
+                    },
+                    {
+                        "indices": [
+                            211,
+                            231
+                        ],
+                        "text": "ChampionsTrophy2025"
+                    }
+                ],
+                "media": [
+                    {
+                        "display_url": "pic.x.com/6WYIXBMazb",
+                        "expanded_url": "https://x.com/incricketteam/status/1898906997132570680/video/1",
+                        "id_str": "1898906641753358336",
+                        "indices": [
+                            232,
+                            255
+                        ],
+                        "media_key": "7_1898906641753358336",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1898906641753358336/pu/img/9gGT6XlCymHLheYr.jpg",
+                        "type": "video",
+                        "url": "https://t.co/6WYIXBMazb",
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 720,
+                                "w": 1280,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 675,
+                                "w": 1200,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 383,
+                                "w": 680,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 720,
+                            "width": 1280,
+                            "focus_rects": []
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                16,
+                                9
+                            ],
+                            "duration_millis": 145407,
+                            "variants": [
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/pl/iuAzA07rg9CI9FHN.m3u8?tag=12&v=cfc"
+                                },
+                                {
+                                    "bitrate": 256000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/vid/avc1/480x270/GGSV4GeKsc9AAvmd.mp4?tag=12"
+                                },
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/vid/avc1/640x360/MpBbi2d9eAtBlqUV.mp4?tag=12"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/vid/avc1/1280x720/lR9lPHPiYOhpWcS5.mp4?tag=12"
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "7_1898906641753358336"
+                            }
+                        }
+                    }
+                ],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/6WYIXBMazb",
+                        "expanded_url": "https://x.com/incricketteam/status/1898906997132570680/video/1",
+                        "id_str": "1898906641753358336",
+                        "indices": [
+                            232,
+                            255
+                        ],
+                        "media_key": "7_1898906641753358336",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/1898906641753358336/pu/img/9gGT6XlCymHLheYr.jpg",
+                        "type": "video",
+                        "url": "https://t.co/6WYIXBMazb",
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 720,
+                                "w": 1280,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 675,
+                                "w": 1200,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 383,
+                                "w": 680,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 720,
+                            "width": 1280,
+                            "focus_rects": []
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                16,
+                                9
+                            ],
+                            "duration_millis": 145407,
+                            "variants": [
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/pl/iuAzA07rg9CI9FHN.m3u8?tag=12&v=cfc"
+                                },
+                                {
+                                    "bitrate": 256000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/vid/avc1/480x270/GGSV4GeKsc9AAvmd.mp4?tag=12"
+                                },
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/vid/avc1/640x360/MpBbi2d9eAtBlqUV.mp4?tag=12"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/1898906641753358336/pu/vid/avc1/1280x720/lR9lPHPiYOhpWcS5.mp4?tag=12"
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "7_1898906641753358336"
+                            }
+                        }
+                    }
+                ]
+            },
+            "favorite_count": 56700,
+            "favorited": false,
+            "full_text": "\ud83c\udfc6 \ud835\uddd9\ud835\uddff\ud835\uddfc\ud835\uddfa \ud835\uddfb\ud835\uddf2\ud835\uddff\ud835\ude03\ud835\uddf2-\ud835\ude04\ud835\uddff\ud835\uddee\ud835\uddf0\ud835\uddf8\ud835\uddf6\ud835\uddfb\ud835\uddf4 \ud835\uddfa\ud835\uddfc\ud835\uddfa\ud835\uddf2\ud835\uddfb\ud835\ude01\ud835\ude00 \ud835\ude01\ud835\uddfc \ud835\ude02\ud835\uddf9\ud835\ude01\ud835\uddf6\ud835\uddfa\ud835\uddee\ud835\ude01\ud835\uddf2 \ud835\uddf4\ud835\uddf9\ud835\uddfc\ud835\uddff\ud835\ude06! \u2764\ufe0f\u200d\ud83d\udd25\n\nInside the dressing room of #TeamIndia, onto the field, and into the wild celebrations\u2014we bring you every moment! \ud83c\udf89\ud83c\uddee\ud83c\uddf3 \n\nWATCH it all unfold! \ud83c\udfa5\ud83d\udd3d\n\n#INDvsNZ | #ChampionsTrophy2025 https://t.co/6WYIXBMazb",
+            "is_quote_status": false,
+            "lang": "en",
+            "possibly_sensitive": false,
+            "possibly_sensitive_editable": true,
+            "quote_count": 77,
+            "reply_count": 118,
+            "retweet_count": 7181,
+            "retweeted": false,
+            "user_id_str": "1667526624831737857",
+            "id_str": "1898906997132570680"
+        }
+    },
+    "1892161875455914497": {
+        "__typename": "Tweet",
+        "rest_id": "1892161875455914497",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNjY3NTI2NjI0ODMxNzM3ODU3",
+                    "rest_id": "1667526624831737857",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Sat Jun 10 13:38:36 +0000 2023",
+                        "default_profile": true,
+                        "default_profile_image": false,
+                        "description": "Account of Indian Cricket team. #TeamIndia. Parody Account. Get Updates related to Team India \ud83c\uddee\ud83c\uddf3.",
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "bcci.tv",
+                                        "expanded_url": "http://bcci.tv",
+                                        "url": "https://t.co/TsOHAbXc0o",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 652,
+                        "followers_count": 35711,
+                        "friends_count": 62,
+                        "has_custom_timelines": false,
+                        "is_translator": false,
+                        "listed_count": 10,
+                        "location": "",
+                        "media_count": 1503,
+                        "name": "Indian Cricket Team",
+                        "normal_followers_count": 35711,
+                        "pinned_tweet_ids_str": [
+                            "1898771108142141483"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1667526624831737857/1741608335",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1803645486366347264/WpkknEZ5_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "incricketteam",
+                        "statuses_count": 3030,
+                        "translator_type": "none",
+                        "url": "https://t.co/TsOHAbXc0o",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1892161875455914497"
+            ],
+            "editable_until_msecs": "1739965120000",
+            "is_edit_eligible": true,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "count": "417252",
+            "state": "EnabledWithCount"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "legacy": {
+            "bookmark_count": 292,
+            "bookmarked": false,
+            "created_at": "Wed Feb 19 10:38:40 +0000 2025",
+            "conversation_id_str": "1892161875455914497",
+            "display_text_range": [
+                0,
+                69
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            40,
+                            56
+                        ],
+                        "text": "ChampionsTrophy"
+                    },
+                    {
+                        "indices": [
+                            59,
+                            69
+                        ],
+                        "text": "TeamIndia"
+                    }
+                ],
+                "media": [
+                    {
+                        "display_url": "pic.x.com/TfmlfaC20f",
+                        "expanded_url": "https://x.com/incricketteam/status/1892161875455914497/photo/1",
+                        "id_str": "1892161871899471872",
+                        "indices": [
+                            70,
+                            93
+                        ],
+                        "media_key": "3_1892161871899471872",
+                        "media_url_https": "https://pbs.twimg.com/media/GkJPMogbMAAcyPj.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/TfmlfaC20f",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1350,
+                                "w": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 960,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 544,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 1350,
+                            "width": 1080,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 474,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 236,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 119,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 101,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1892161871899471872"
+                            }
+                        }
+                    }
+                ],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/TfmlfaC20f",
+                        "expanded_url": "https://x.com/incricketteam/status/1892161875455914497/photo/1",
+                        "id_str": "1892161871899471872",
+                        "indices": [
+                            70,
+                            93
+                        ],
+                        "media_key": "3_1892161871899471872",
+                        "media_url_https": "https://pbs.twimg.com/media/GkJPMogbMAAcyPj.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/TfmlfaC20f",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1350,
+                                "w": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 960,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 544,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 1350,
+                            "width": 1080,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 474,
+                                    "w": 1080,
+                                    "h": 605
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 236,
+                                    "w": 1080,
+                                    "h": 1080
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 119,
+                                    "w": 1080,
+                                    "h": 1231
+                                },
+                                {
+                                    "x": 101,
+                                    "y": 0,
+                                    "w": 675,
+                                    "h": 1350
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1080,
+                                    "h": 1350
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1892161871899471872"
+                            }
+                        }
+                    }
+                ]
+            },
+            "favorite_count": 38297,
+            "favorited": false,
+            "full_text": "Indian flag flying high in Karachi \ud83c\uddee\ud83c\uddf3\ud83e\udee1\n\n#ChampionsTrophy | #TeamIndia https://t.co/TfmlfaC20f",
+            "is_quote_status": false,
+            "lang": "en",
+            "possibly_sensitive": false,
+            "possibly_sensitive_editable": true,
+            "quote_count": 36,
+            "reply_count": 127,
+            "retweet_count": 2373,
+            "retweeted": false,
+            "user_id_str": "1667526624831737857",
+            "id_str": "1892161875455914497"
+        }
+    }
+}

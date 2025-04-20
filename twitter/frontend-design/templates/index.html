@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Analysis Tool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 2rem;
+            background-color: #f8f9fa;
+        }
+        .feature-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin-bottom: 1.5rem;
+            height: 100%;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .card-img-top {
+            height: 180px;
+            object-fit: cover;
+        }
+        .header {
+            background-color: #1DA1F2;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container text-center">
+            <h1>Twitter Content Analysis Tool</h1>
+            <p class="lead">Analyze tweets and images with advanced AI</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card feature-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Extract Twitter Data</h5>
+                        <p class="card-text">Extract tweets and media from Twitter profiles automatically.</p>
+                        <a href="/twitter_json" class="btn btn-primary">Extract JSON Data</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Tweet Text Analysis</h5>
+                        <p class="card-text">Analyze the text content of tweets with AI-powered insights.</p>
+                        <a href="/tweet_analysis" class="btn btn-primary">Analyze Tweets</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card feature-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Visual Tweet Analysis</h5>
+                        <p class="card-text">Analyze images from tweets including content and sentiment detection.</p>
+                        <a href="/tweet_images" class="btn btn-primary">Analyze Images</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>How to Use This Tool</h4>
+                        <ol>
+                            <li>Start by extracting Twitter data from a profile using the "Extract JSON Data" button</li>
+                            <li>After extraction, analyze the tweet text using the "Analyze Tweets" button</li>
+                            <li>Or analyze images in tweets using the "Analyze Images" button</li>
+                            <li>Ask questions about tweet content or images to get AI-powered insights</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-3 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Twitter Content Analysis Tool &copy; 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

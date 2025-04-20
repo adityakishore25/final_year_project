@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Text Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 2rem;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #1DA1F2;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 0 0 10px 10px;
+        }
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .tweet-card {
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+        .tweet-card:hover {
+            transform: translateY(-3px);
+        }
+        .question-form {
+            display: none;
+            margin-top: 1rem;
+        }
+        .answer-container {
+            display: none;
+            margin-top: 1rem;
+        }
+        .loading-indicator {
+            display: none;
+        }
+        .suggestion-badge {
+            cursor: pointer;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container text-center">
+            <h1>Tweet Text Analysis</h1>
+            <p class="lead">Analyze the text content of tweets with AI-powered insights</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="form-container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Tweet Text Analysis</li>
+                        </ol>
+                    </nav>
+
+                    {% if error %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error }}
+                    </div>
+                    {% endif %}
+
+                    {% if success %}
+                    <div class="alert alert-success" role="alert">
+                        {{ success }}
+                    </div>
+                    {% endif %}
+
+                    {% if not tweets %}
+                    <form method="POST" action="/tweet_analysis" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="tweet_json" class="form-label">Upload Twitter JSON File</label>
+                            <input type="file" class="form-control" id="tweet_json" name="tweet_json" accept=".json" required>
+                            <div class="form-text">Upload the JSON file created by the Twitter data extraction tool.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Analyze Tweets</button>
+                    </form>
+                    {% endif %}
+                    
+                    {% if tweets %}
+                    <div class="alert alert-info mb-4">
+                        <h5>How to use:</h5>
+                        <p>Click "Ask Question" under any tweet to analyze its content. You can ask about sentiment, topics, or any other aspect of the tweet.</p>
+                    </div>
+                    
+                    <div class="tweets-container">
+                        {% for tweet in tweets %}
+                        <div class="card tweet-card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5 class="card-title">{{ tweet.user }} (@{{ tweet.username }})</h5>
+                                    <small class="text-muted">{{ tweet.created_at }}</small>
+                                </div>
+                                <p class="card-text">{{ tweet.text }}</p>
+                                
+                                <button class="btn btn-sm btn-outline-primary ask-button" data-tweet-id="{{ tweet.id }}">
+                                    Ask Question About This Tweet
+                                </button>
+                                
+                                <div id="question-form-{{ tweet.id }}" class="question-form">
+                                    <div class="input-group mb-2">
+                                        <input type="text" class="form-control" id="question-{{ tweet.id }}" placeholder="Ask a question about this tweet...">
+                                        <button class="btn btn-primary submit-question" data-tweet-id="{{ tweet.id }}">
+                                            Submit
+                                        </button>
+                                    </div>
+                                    
+                                    <div class="suggestion-container mb-3">
+                                        <small class="text-muted d-block mb-2">Suggested questions:</small>
+                                        <span class="badge bg-light text-dark suggestion-badge" data-tweet-id="{{ tweet.id }}">What's the sentiment of this tweet?</span>
+                                        <span class="badge bg-light text-dark suggestion-badge" data-tweet-id="{{ tweet.id }}">Does this tweet contain any hate speech?</span>
+                                        <span class="badge bg-light text-dark suggestion-badge" data-tweet-id="{{ tweet.id }}">What's the main topic of this tweet?</span>
+                                        <span class="badge bg-light text-dark suggestion-badge" data-tweet-id="{{ tweet.id }}">Who is the author of this tweet?</span>
+                                    </div>
+                                    
+                                    <div id="loading-{{ tweet.id }}" class="loading-indicator">
+                                        <div class="d-flex align-items-center">
+                                            <div class="spinner-border spinner-border-sm text-primary me-2" role="status"></div>
+                                            <span>Analyzing...</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div id="answer-{{ tweet.id }}" class="answer-container">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h6 class="card-subtitle mb-2 text-muted">Analysis Result:</h6>
+                                                <p class="card-text answer-text"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <input type="hidden" id="tweet-text-{{ tweet.id }}" value="{{ tweet.text }}">
+                                <input type="hidden" id="tweet-user-{{ tweet.id }}" value="{{ tweet.user }}">
+                                <input type="hidden" id="tweet-username-{{ tweet.id }}" value="{{ tweet.username }}">
+                                <input type="hidden" id="tweet-created-at-{{ tweet.id }}" value="{{ tweet.created_at }}">
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-3 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Twitter Content Analysis Tool &copy; 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show question form when "Ask Question" is clicked
+            document.querySelectorAll('.ask-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    const tweetId = this.getAttribute('data-tweet-id');
+                    const form = document.getElementById(`question-form-${tweetId}`);
+                    
+                    // Toggle visibility
+                    if (form.style.display === 'block') {
+                        form.style.display = 'none';
+                    } else {
+                        // Hide all other forms first
+                        document.querySelectorAll('.question-form').forEach(f => {
+                            f.style.display = 'none';
+                        });
+                        form.style.display = 'block';
+                    }
+                });
+            });
+            
+            // Handle suggestion clicks
+            document.querySelectorAll('.suggestion-badge').forEach(badge => {
+                badge.addEventListener('click', function() {
+                    const tweetId = this.getAttribute('data-tweet-id');
+                    const questionInput = document.getElementById(`question-${tweetId}`);
+                    questionInput.value = this.textContent;
+                });
+            });
+            
+            // Handle question submission
+            document.querySelectorAll('.submit-question').forEach(button => {
+                button.addEventListener('click', function() {
+                    const tweetId = this.getAttribute('data-tweet-id');
+                    const questionInput = document.getElementById(`question-${tweetId}`);
+                    const question = questionInput.value.trim();
+                    
+                    if (!question) {
+                        alert('Please enter a question');
+                        return;
+                    }
+                    
+                    // Get tweet data from hidden inputs
+                    const tweetText = document.getElementById(`tweet-text-${tweetId}`).value;
+                    const tweetUser = document.getElementById(`tweet-user-${tweetId}`).value;
+                    const tweetUsername = document.getElementById(`tweet-username-${tweetId}`).value;
+                    const tweetCreatedAt = document.getElementById(`tweet-created-at-${tweetId}`).value;
+                    
+                    // Show loading indicator
+                    const loadingIndicator = document.getElementById(`loading-${tweetId}`);
+                    loadingIndicator.style.display = 'block';
+                    
+                    // Hide previous answer
+                    const answerContainer = document.getElementById(`answer-${tweetId}`);
+                    answerContainer.style.display = 'none';
+                    
+                    // Send AJAX request
+                    fetch('/ask_tweet', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: `tweet_id=${encodeURIComponent(tweetId)}&question=${encodeURIComponent(question)}&tweet_text=${encodeURIComponent(tweetText)}&tweet_user=${encodeURIComponent(tweetUser)}&tweet_username=${encodeURIComponent(tweetUsername)}&tweet_created_at=${encodeURIComponent(tweetCreatedAt)}`
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        // Hide loading indicator
+                        loadingIndicator.style.display = 'none';
+                        
+                        // Display the answer
+                        const answerText = answerContainer.querySelector('.answer-text');
+                        if (data.error) {
+                            answerText.textContent = `Error: ${data.error}`;
+                        } else {
+                            answerText.textContent = data.answer;
+                        }
+                        answerContainer.style.display = 'block';
+                    })
+                    .catch(error => {
+                        loadingIndicator.style.display = 'none';
+                        console.error('Error:', error);
+                        alert('An error occurred while processing your question');
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

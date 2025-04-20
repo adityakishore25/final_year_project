@@ -1,0 +1,1941 @@
+{
+    "1867230509379555543": {
+        "__typename": "Tweet",
+        "rest_id": "1867230509379555543",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNDQ4ODMxOTc=",
+                    "rest_id": "144883197",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Mon May 17 15:15:31 +0000 2010",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Chess Grandmaster , World Rank #14 | Part of Indian team. Passionate about Wildr. Proud Ambassador of Ambit! Reach me here- https://t.co/EN6LRlukWD",
+                        "entities": {
+                            "description": {
+                                "urls": [
+                                    {
+                                        "display_url": "superdm.me/vidit",
+                                        "expanded_url": "http://superdm.me/vidit",
+                                        "url": "https://t.co/EN6LRlukWD",
+                                        "indices": [
+                                            124,
+                                            147
+                                        ]
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "youtube.com/c/ViditGujrath\u2026",
+                                        "expanded_url": "https://youtube.com/c/ViditGujrathi94",
+                                        "url": "https://t.co/KQeDuenjaO",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 4141,
+                        "followers_count": 127892,
+                        "friends_count": 529,
+                        "has_custom_timelines": true,
+                        "is_translator": false,
+                        "listed_count": 549,
+                        "location": "Nasik,India",
+                        "media_count": 501,
+                        "name": "Vidit Gujrathi",
+                        "normal_followers_count": 127892,
+                        "pinned_tweet_ids_str": [
+                            "1837870283526439049"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/144883197/1550159866",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1729520396016439296/TOxlH2CQ_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "viditchess",
+                        "statuses_count": 4198,
+                        "translator_type": "none",
+                        "url": "https://t.co/KQeDuenjaO",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "professional": {
+                        "rest_id": "1526896007698841601",
+                        "professional_type": "Creator",
+                        "category": [
+                            {
+                                "id": 930,
+                                "name": "Professional Athlete",
+                                "icon_name": "IconBriefcaseStroke"
+                            }
+                        ]
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1867230509379555543"
+            ],
+            "editable_until_msecs": "1734021019000",
+            "is_edit_eligible": true,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "count": "718728",
+            "state": "EnabledWithCount"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "legacy": {
+            "bookmark_count": 250,
+            "bookmarked": false,
+            "created_at": "Thu Dec 12 15:30:19 +0000 2024",
+            "conversation_id_str": "1867230509379555543",
+            "display_text_range": [
+                0,
+                158
+            ],
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 23417,
+            "favorited": false,
+            "full_text": "As a human, my heart goes out for Ding. A chess player can understand how bad it feels to make a trivial blunder when there are such high stakes\u2026  Poor thing!",
+            "is_quote_status": false,
+            "lang": "en",
+            "quote_count": 26,
+            "reply_count": 89,
+            "retweet_count": 760,
+            "retweeted": false,
+            "user_id_str": "144883197",
+            "id_str": "1867230509379555543"
+        }
+    },
+    "1867215721396093139": {
+        "__typename": "Tweet",
+        "rest_id": "1867215721396093139",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNDQ4ODMxOTc=",
+                    "rest_id": "144883197",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Mon May 17 15:15:31 +0000 2010",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Chess Grandmaster , World Rank #14 | Part of Indian team. Passionate about Wildr. Proud Ambassador of Ambit! Reach me here- https://t.co/EN6LRlukWD",
+                        "entities": {
+                            "description": {
+                                "urls": [
+                                    {
+                                        "display_url": "superdm.me/vidit",
+                                        "expanded_url": "http://superdm.me/vidit",
+                                        "url": "https://t.co/EN6LRlukWD",
+                                        "indices": [
+                                            124,
+                                            147
+                                        ]
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "youtube.com/c/ViditGujrath\u2026",
+                                        "expanded_url": "https://youtube.com/c/ViditGujrathi94",
+                                        "url": "https://t.co/KQeDuenjaO",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 4141,
+                        "followers_count": 127892,
+                        "friends_count": 529,
+                        "has_custom_timelines": true,
+                        "is_translator": false,
+                        "listed_count": 549,
+                        "location": "Nasik,India",
+                        "media_count": 501,
+                        "name": "Vidit Gujrathi",
+                        "normal_followers_count": 127892,
+                        "pinned_tweet_ids_str": [
+                            "1837870283526439049"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/144883197/1550159866",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1729520396016439296/TOxlH2CQ_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "viditchess",
+                        "statuses_count": 4198,
+                        "translator_type": "none",
+                        "url": "https://t.co/KQeDuenjaO",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "professional": {
+                        "rest_id": "1526896007698841601",
+                        "professional_type": "Creator",
+                        "category": [
+                            {
+                                "id": 930,
+                                "name": "Professional Athlete",
+                                "icon_name": "IconBriefcaseStroke"
+                            }
+                        ]
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1867215721396093139"
+            ],
+            "editable_until_msecs": "1734017493000",
+            "is_edit_eligible": true,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "count": "540063",
+            "state": "EnabledWithCount"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "legacy": {
+            "bookmark_count": 177,
+            "bookmarked": false,
+            "created_at": "Thu Dec 12 14:31:33 +0000 2024",
+            "conversation_id_str": "1867215721396093139",
+            "display_text_range": [
+                0,
+                83
+            ],
+            "entities": {
+                "hashtags": [],
+                "media": [
+                    {
+                        "display_url": "pic.x.com/9YDH4RasV6",
+                        "expanded_url": "https://x.com/viditchess/status/1867215721396093139/photo/1",
+                        "id_str": "1867215705315192832",
+                        "indices": [
+                            84,
+                            107
+                        ],
+                        "media_key": "3_1867215705315192832",
+                        "media_url_https": "https://pbs.twimg.com/media/GemuyoJXsAAQQPp.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/9YDH4RasV6",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 918,
+                                        "y": 1716,
+                                        "h": 116,
+                                        "w": 116
+                                    },
+                                    {
+                                        "x": 466,
+                                        "y": 438,
+                                        "h": 166,
+                                        "w": 166
+                                    },
+                                    {
+                                        "x": 768,
+                                        "y": 484,
+                                        "h": 156,
+                                        "w": 156
+                                    },
+                                    {
+                                        "x": 214,
+                                        "y": 1734,
+                                        "h": 184,
+                                        "w": 184
+                                    },
+                                    {
+                                        "x": 580,
+                                        "y": 210,
+                                        "h": 776,
+                                        "w": 776
+                                    }
+                                ]
+                            },
+                            "medium": {
+                                "faces": [
+                                    {
+                                        "x": 537,
+                                        "y": 1005,
+                                        "h": 67,
+                                        "w": 67
+                                    },
+                                    {
+                                        "x": 273,
+                                        "y": 256,
+                                        "h": 97,
+                                        "w": 97
+                                    },
+                                    {
+                                        "x": 450,
+                                        "y": 283,
+                                        "h": 91,
+                                        "w": 91
+                                    },
+                                    {
+                                        "x": 125,
+                                        "y": 1016,
+                                        "h": 107,
+                                        "w": 107
+                                    },
+                                    {
+                                        "x": 339,
+                                        "y": 123,
+                                        "h": 454,
+                                        "w": 454
+                                    }
+                                ]
+                            },
+                            "small": {
+                                "faces": [
+                                    {
+                                        "x": 304,
+                                        "y": 569,
+                                        "h": 38,
+                                        "w": 38
+                                    },
+                                    {
+                                        "x": 154,
+                                        "y": 145,
+                                        "h": 55,
+                                        "w": 55
+                                    },
+                                    {
+                                        "x": 255,
+                                        "y": 160,
+                                        "h": 51,
+                                        "w": 51
+                                    },
+                                    {
+                                        "x": 71,
+                                        "y": 575,
+                                        "h": 61,
+                                        "w": 61
+                                    },
+                                    {
+                                        "x": 192,
+                                        "y": 69,
+                                        "h": 257,
+                                        "w": 257
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "x": 918,
+                                        "y": 1716,
+                                        "h": 116,
+                                        "w": 116
+                                    },
+                                    {
+                                        "x": 466,
+                                        "y": 438,
+                                        "h": 166,
+                                        "w": 166
+                                    },
+                                    {
+                                        "x": 768,
+                                        "y": 484,
+                                        "h": 156,
+                                        "w": 156
+                                    },
+                                    {
+                                        "x": 214,
+                                        "y": 1734,
+                                        "h": 184,
+                                        "w": 184
+                                    },
+                                    {
+                                        "x": 580,
+                                        "y": 210,
+                                        "h": 776,
+                                        "w": 776
+                                    }
+                                ]
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1536,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 900,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 510,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1536,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 235,
+                                    "w": 1536,
+                                    "h": 860
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1536,
+                                    "h": 1536
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1536,
+                                    "h": 1751
+                                },
+                                {
+                                    "x": 358,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1536,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1867215705315192832"
+                            }
+                        }
+                    }
+                ],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id_str": "1081889952412119040",
+                        "name": "Gukesh D",
+                        "screen_name": "DGukesh",
+                        "indices": [
+                            16,
+                            24
+                        ]
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/9YDH4RasV6",
+                        "expanded_url": "https://x.com/viditchess/status/1867215721396093139/photo/1",
+                        "id_str": "1867215705315192832",
+                        "indices": [
+                            84,
+                            107
+                        ],
+                        "media_key": "3_1867215705315192832",
+                        "media_url_https": "https://pbs.twimg.com/media/GemuyoJXsAAQQPp.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/9YDH4RasV6",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 918,
+                                        "y": 1716,
+                                        "h": 116,
+                                        "w": 116
+                                    },
+                                    {
+                                        "x": 466,
+                                        "y": 438,
+                                        "h": 166,
+                                        "w": 166
+                                    },
+                                    {
+                                        "x": 768,
+                                        "y": 484,
+                                        "h": 156,
+                                        "w": 156
+                                    },
+                                    {
+                                        "x": 214,
+                                        "y": 1734,
+                                        "h": 184,
+                                        "w": 184
+                                    },
+                                    {
+                                        "x": 580,
+                                        "y": 210,
+                                        "h": 776,
+                                        "w": 776
+                                    }
+                                ]
+                            },
+                            "medium": {
+                                "faces": [
+                                    {
+                                        "x": 537,
+                                        "y": 1005,
+                                        "h": 67,
+                                        "w": 67
+                                    },
+                                    {
+                                        "x": 273,
+                                        "y": 256,
+                                        "h": 97,
+                                        "w": 97
+                                    },
+                                    {
+                                        "x": 450,
+                                        "y": 283,
+                                        "h": 91,
+                                        "w": 91
+                                    },
+                                    {
+                                        "x": 125,
+                                        "y": 1016,
+                                        "h": 107,
+                                        "w": 107
+                                    },
+                                    {
+                                        "x": 339,
+                                        "y": 123,
+                                        "h": 454,
+                                        "w": 454
+                                    }
+                                ]
+                            },
+                            "small": {
+                                "faces": [
+                                    {
+                                        "x": 304,
+                                        "y": 569,
+                                        "h": 38,
+                                        "w": 38
+                                    },
+                                    {
+                                        "x": 154,
+                                        "y": 145,
+                                        "h": 55,
+                                        "w": 55
+                                    },
+                                    {
+                                        "x": 255,
+                                        "y": 160,
+                                        "h": 51,
+                                        "w": 51
+                                    },
+                                    {
+                                        "x": 71,
+                                        "y": 575,
+                                        "h": 61,
+                                        "w": 61
+                                    },
+                                    {
+                                        "x": 192,
+                                        "y": 69,
+                                        "h": 257,
+                                        "w": 257
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "x": 918,
+                                        "y": 1716,
+                                        "h": 116,
+                                        "w": 116
+                                    },
+                                    {
+                                        "x": 466,
+                                        "y": 438,
+                                        "h": 166,
+                                        "w": 166
+                                    },
+                                    {
+                                        "x": 768,
+                                        "y": 484,
+                                        "h": 156,
+                                        "w": 156
+                                    },
+                                    {
+                                        "x": 214,
+                                        "y": 1734,
+                                        "h": 184,
+                                        "w": 184
+                                    },
+                                    {
+                                        "x": 580,
+                                        "y": 210,
+                                        "h": 776,
+                                        "w": 776
+                                    }
+                                ]
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1536,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 900,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 510,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1536,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 235,
+                                    "w": 1536,
+                                    "h": 860
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1536,
+                                    "h": 1536
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1536,
+                                    "h": 1751
+                                },
+                                {
+                                    "x": 358,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1536,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1867215705315192832"
+                            }
+                        }
+                    }
+                ]
+            },
+            "favorite_count": 41273,
+            "favorited": false,
+            "full_text": "Congratulations @DGukesh !! \n\nYoungest World champion ever! Amazing achievement \ud83d\udc4f\ud83d\udc4f\ud83d\udc4f https://t.co/9YDH4RasV6",
+            "is_quote_status": false,
+            "lang": "en",
+            "possibly_sensitive": false,
+            "possibly_sensitive_editable": true,
+            "quote_count": 13,
+            "reply_count": 76,
+            "retweet_count": 1458,
+            "retweeted": false,
+            "user_id_str": "144883197",
+            "id_str": "1867215721396093139"
+        }
+    },
+    "1860977215300636920": {
+        "__typename": "Tweet",
+        "rest_id": "1860977215300636920",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNDQ4ODMxOTc=",
+                    "rest_id": "144883197",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Mon May 17 15:15:31 +0000 2010",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Chess Grandmaster , World Rank #14 | Part of Indian team. Passionate about Wildr. Proud Ambassador of Ambit! Reach me here- https://t.co/EN6LRlukWD",
+                        "entities": {
+                            "description": {
+                                "urls": [
+                                    {
+                                        "display_url": "superdm.me/vidit",
+                                        "expanded_url": "http://superdm.me/vidit",
+                                        "url": "https://t.co/EN6LRlukWD",
+                                        "indices": [
+                                            124,
+                                            147
+                                        ]
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "youtube.com/c/ViditGujrath\u2026",
+                                        "expanded_url": "https://youtube.com/c/ViditGujrathi94",
+                                        "url": "https://t.co/KQeDuenjaO",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 4141,
+                        "followers_count": 127891,
+                        "friends_count": 529,
+                        "has_custom_timelines": true,
+                        "is_translator": false,
+                        "listed_count": 549,
+                        "location": "Nasik,India",
+                        "media_count": 501,
+                        "name": "Vidit Gujrathi",
+                        "normal_followers_count": 127891,
+                        "pinned_tweet_ids_str": [
+                            "1837870283526439049"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/144883197/1550159866",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1729520396016439296/TOxlH2CQ_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "viditchess",
+                        "statuses_count": 4198,
+                        "translator_type": "none",
+                        "url": "https://t.co/KQeDuenjaO",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "professional": {
+                        "rest_id": "1526896007698841601",
+                        "professional_type": "Creator",
+                        "category": [
+                            {
+                                "id": 930,
+                                "name": "Professional Athlete",
+                                "icon_name": "IconBriefcaseStroke"
+                            }
+                        ]
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1860977215300636920"
+            ],
+            "editable_until_msecs": "1732530118000",
+            "is_edit_eligible": false,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "count": "899325",
+            "state": "EnabledWithCount"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "legacy": {
+            "bookmark_count": 612,
+            "bookmarked": false,
+            "created_at": "Mon Nov 25 09:21:58 +0000 2024",
+            "conversation_id_str": "1860977215300636920",
+            "display_text_range": [
+                0,
+                78
+            ],
+            "entities": {
+                "hashtags": [],
+                "media": [
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153266880512",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "3_1860977153266880512",
+                        "media_url_https": "https://pbs.twimg.com/media/GdOE3GuXEAAtl_b.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/NWe267LdOu",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1366,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 800,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1366,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 283,
+                                    "w": 1366,
+                                    "h": 765
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1366
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1557
+                                },
+                                {
+                                    "x": 51,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1860977153266880512"
+                            }
+                        }
+                    },
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153275260928",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "13_1860977153275260928",
+                        "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1860977153275260928/img/XF8MnYiFYsBHKKWl.jpg",
+                        "type": "video",
+                        "url": "https://t.co/NWe267LdOu",
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1920,
+                                "w": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 383,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 1920,
+                            "width": 1080,
+                            "focus_rects": []
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 6000,
+                            "variants": [
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/pl/7vWQMvdybh85DfkI.m3u8?tag=16"
+                                },
+                                {
+                                    "bitrate": 632000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/320x568/GeEoTuBGgtWoh-Kc.mp4?tag=16"
+                                },
+                                {
+                                    "bitrate": 950000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/480x852/iES2B7fmvaBGsMGE.mp4?tag=16"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/720x1280/VwXG_xfo6Zi54FTc.mp4?tag=16"
+                                },
+                                {
+                                    "bitrate": 10368000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/1080x1920/sla6k05vob8tnAQM.mp4?tag=16"
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "13_1860977153275260928"
+                            }
+                        }
+                    },
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153250131972",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "3_1860977153250131972",
+                        "media_url_https": "https://pbs.twimg.com/media/GdOE3GqXgAQRJH_.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/NWe267LdOu",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 820,
+                                        "y": 572,
+                                        "h": 136,
+                                        "w": 136
+                                    },
+                                    {
+                                        "x": 460,
+                                        "y": 528,
+                                        "h": 146,
+                                        "w": 146
+                                    },
+                                    {
+                                        "x": 270,
+                                        "y": 916,
+                                        "h": 388,
+                                        "w": 388
+                                    }
+                                ]
+                            },
+                            "medium": {
+                                "faces": [
+                                    {
+                                        "x": 480,
+                                        "y": 334,
+                                        "h": 79,
+                                        "w": 79
+                                    },
+                                    {
+                                        "x": 269,
+                                        "y": 309,
+                                        "h": 85,
+                                        "w": 85
+                                    },
+                                    {
+                                        "x": 158,
+                                        "y": 536,
+                                        "h": 227,
+                                        "w": 227
+                                    }
+                                ]
+                            },
+                            "small": {
+                                "faces": [
+                                    {
+                                        "x": 272,
+                                        "y": 190,
+                                        "h": 45,
+                                        "w": 45
+                                    },
+                                    {
+                                        "x": 152,
+                                        "y": 175,
+                                        "h": 48,
+                                        "w": 48
+                                    },
+                                    {
+                                        "x": 89,
+                                        "y": 304,
+                                        "h": 128,
+                                        "w": 128
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "x": 820,
+                                        "y": 572,
+                                        "h": 136,
+                                        "w": 136
+                                    },
+                                    {
+                                        "x": 460,
+                                        "y": 528,
+                                        "h": 146,
+                                        "w": 146
+                                    },
+                                    {
+                                        "x": 270,
+                                        "y": 916,
+                                        "h": 388,
+                                        "w": 388
+                                    }
+                                ]
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1366,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 800,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1366,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 283,
+                                    "w": 1366,
+                                    "h": 765
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1366
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1557
+                                },
+                                {
+                                    "x": 342,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1860977153250131972"
+                            }
+                        }
+                    },
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153258422272",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "3_1860977153258422272",
+                        "media_url_https": "https://pbs.twimg.com/media/GdOE3GsWAAACeG5.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/NWe267LdOu",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1366,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 800,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1366,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 795,
+                                    "w": 1366,
+                                    "h": 765
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 494,
+                                    "w": 1366,
+                                    "h": 1366
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 399,
+                                    "w": 1366,
+                                    "h": 1557
+                                },
+                                {
+                                    "x": 153,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1860977153258422272"
+                            }
+                        }
+                    }
+                ],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153266880512",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "3_1860977153266880512",
+                        "media_url_https": "https://pbs.twimg.com/media/GdOE3GuXEAAtl_b.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/NWe267LdOu",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1366,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 800,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1366,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 283,
+                                    "w": 1366,
+                                    "h": 765
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1366
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1557
+                                },
+                                {
+                                    "x": 51,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1860977153266880512"
+                            }
+                        }
+                    },
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153275260928",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "13_1860977153275260928",
+                        "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1860977153275260928/img/XF8MnYiFYsBHKKWl.jpg",
+                        "type": "video",
+                        "url": "https://t.co/NWe267LdOu",
+                        "additional_media_info": {
+                            "monetizable": false
+                        },
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 1920,
+                                "w": 1080,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 675,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 383,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 1920,
+                            "width": 1080,
+                            "focus_rects": []
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                9,
+                                16
+                            ],
+                            "duration_millis": 6000,
+                            "variants": [
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/pl/7vWQMvdybh85DfkI.m3u8?tag=16"
+                                },
+                                {
+                                    "bitrate": 632000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/320x568/GeEoTuBGgtWoh-Kc.mp4?tag=16"
+                                },
+                                {
+                                    "bitrate": 950000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/480x852/iES2B7fmvaBGsMGE.mp4?tag=16"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/720x1280/VwXG_xfo6Zi54FTc.mp4?tag=16"
+                                },
+                                {
+                                    "bitrate": 10368000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/amplify_video/1860977153275260928/vid/avc1/1080x1920/sla6k05vob8tnAQM.mp4?tag=16"
+                                }
+                            ]
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "13_1860977153275260928"
+                            }
+                        }
+                    },
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153250131972",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "3_1860977153250131972",
+                        "media_url_https": "https://pbs.twimg.com/media/GdOE3GqXgAQRJH_.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/NWe267LdOu",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": [
+                                    {
+                                        "x": 820,
+                                        "y": 572,
+                                        "h": 136,
+                                        "w": 136
+                                    },
+                                    {
+                                        "x": 460,
+                                        "y": 528,
+                                        "h": 146,
+                                        "w": 146
+                                    },
+                                    {
+                                        "x": 270,
+                                        "y": 916,
+                                        "h": 388,
+                                        "w": 388
+                                    }
+                                ]
+                            },
+                            "medium": {
+                                "faces": [
+                                    {
+                                        "x": 480,
+                                        "y": 334,
+                                        "h": 79,
+                                        "w": 79
+                                    },
+                                    {
+                                        "x": 269,
+                                        "y": 309,
+                                        "h": 85,
+                                        "w": 85
+                                    },
+                                    {
+                                        "x": 158,
+                                        "y": 536,
+                                        "h": 227,
+                                        "w": 227
+                                    }
+                                ]
+                            },
+                            "small": {
+                                "faces": [
+                                    {
+                                        "x": 272,
+                                        "y": 190,
+                                        "h": 45,
+                                        "w": 45
+                                    },
+                                    {
+                                        "x": 152,
+                                        "y": 175,
+                                        "h": 48,
+                                        "w": 48
+                                    },
+                                    {
+                                        "x": 89,
+                                        "y": 304,
+                                        "h": 128,
+                                        "w": 128
+                                    }
+                                ]
+                            },
+                            "orig": {
+                                "faces": [
+                                    {
+                                        "x": 820,
+                                        "y": 572,
+                                        "h": 136,
+                                        "w": 136
+                                    },
+                                    {
+                                        "x": 460,
+                                        "y": 528,
+                                        "h": 146,
+                                        "w": 146
+                                    },
+                                    {
+                                        "x": 270,
+                                        "y": 916,
+                                        "h": 388,
+                                        "w": 388
+                                    }
+                                ]
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1366,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 800,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1366,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 283,
+                                    "w": 1366,
+                                    "h": 765
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1366
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 1557
+                                },
+                                {
+                                    "x": 342,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1860977153250131972"
+                            }
+                        }
+                    },
+                    {
+                        "display_url": "pic.x.com/NWe267LdOu",
+                        "expanded_url": "https://x.com/viditchess/status/1860977215300636920/video/1",
+                        "id_str": "1860977153258422272",
+                        "indices": [
+                            79,
+                            102
+                        ],
+                        "media_key": "3_1860977153258422272",
+                        "media_url_https": "https://pbs.twimg.com/media/GdOE3GsWAAACeG5.jpg",
+                        "type": "photo",
+                        "url": "https://t.co/NWe267LdOu",
+                        "ext_media_availability": {
+                            "status": "Available"
+                        },
+                        "features": {
+                            "large": {
+                                "faces": []
+                            },
+                            "medium": {
+                                "faces": []
+                            },
+                            "small": {
+                                "faces": []
+                            },
+                            "orig": {
+                                "faces": []
+                            }
+                        },
+                        "sizes": {
+                            "large": {
+                                "h": 2048,
+                                "w": 1366,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "h": 1200,
+                                "w": 800,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "h": 680,
+                                "w": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "h": 150,
+                                "w": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "original_info": {
+                            "height": 2048,
+                            "width": 1366,
+                            "focus_rects": [
+                                {
+                                    "x": 0,
+                                    "y": 795,
+                                    "w": 1366,
+                                    "h": 765
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 494,
+                                    "w": 1366,
+                                    "h": 1366
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 399,
+                                    "w": 1366,
+                                    "h": 1557
+                                },
+                                {
+                                    "x": 153,
+                                    "y": 0,
+                                    "w": 1024,
+                                    "h": 2048
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "w": 1366,
+                                    "h": 2048
+                                }
+                            ]
+                        },
+                        "allow_download_status": {
+                            "allow_download": true
+                        },
+                        "media_results": {
+                            "result": {
+                                "media_key": "3_1860977153258422272"
+                            }
+                        }
+                    }
+                ]
+            },
+            "favorite_count": 23331,
+            "favorited": false,
+            "full_text": "Not accepting rishtas anymore, It\u2019s official now ! \u2665\ufe0f\nGetting married soon! :) https://t.co/NWe267LdOu",
+            "is_quote_status": false,
+            "lang": "en",
+            "possibly_sensitive": false,
+            "possibly_sensitive_editable": true,
+            "quote_count": 146,
+            "reply_count": 1002,
+            "retweet_count": 734,
+            "retweeted": false,
+            "user_id_str": "144883197",
+            "id_str": "1860977215300636920"
+        }
+    },
+    "1300077228319887360": {
+        "__typename": "Tweet",
+        "rest_id": "1300077228319887360",
+        "core": {
+            "user_results": {
+                "result": {
+                    "__typename": "User",
+                    "id": "VXNlcjoxNDQ4ODMxOTc=",
+                    "rest_id": "144883197",
+                    "affiliates_highlighted_label": {},
+                    "parody_commentary_fan_label": "None",
+                    "is_blue_verified": true,
+                    "profile_image_shape": "Circle",
+                    "legacy": {
+                        "created_at": "Mon May 17 15:15:31 +0000 2010",
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "description": "Chess Grandmaster , World Rank #14 | Part of Indian team. Passionate about Wildr. Proud Ambassador of Ambit! Reach me here- https://t.co/EN6LRlukWD",
+                        "entities": {
+                            "description": {
+                                "urls": [
+                                    {
+                                        "display_url": "superdm.me/vidit",
+                                        "expanded_url": "http://superdm.me/vidit",
+                                        "url": "https://t.co/EN6LRlukWD",
+                                        "indices": [
+                                            124,
+                                            147
+                                        ]
+                                    }
+                                ]
+                            },
+                            "url": {
+                                "urls": [
+                                    {
+                                        "display_url": "youtube.com/c/ViditGujrath\u2026",
+                                        "expanded_url": "https://youtube.com/c/ViditGujrathi94",
+                                        "url": "https://t.co/KQeDuenjaO",
+                                        "indices": [
+                                            0,
+                                            23
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "fast_followers_count": 0,
+                        "favourites_count": 4141,
+                        "followers_count": 127892,
+                        "friends_count": 529,
+                        "has_custom_timelines": true,
+                        "is_translator": false,
+                        "listed_count": 549,
+                        "location": "Nasik,India",
+                        "media_count": 501,
+                        "name": "Vidit Gujrathi",
+                        "normal_followers_count": 127892,
+                        "pinned_tweet_ids_str": [
+                            "1837870283526439049"
+                        ],
+                        "possibly_sensitive": false,
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/144883197/1550159866",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1729520396016439296/TOxlH2CQ_normal.jpg",
+                        "profile_interstitial_type": "",
+                        "screen_name": "viditchess",
+                        "statuses_count": 4198,
+                        "translator_type": "none",
+                        "url": "https://t.co/KQeDuenjaO",
+                        "verified": false,
+                        "withheld_in_countries": []
+                    },
+                    "professional": {
+                        "rest_id": "1526896007698841601",
+                        "professional_type": "Creator",
+                        "category": [
+                            {
+                                "id": 930,
+                                "name": "Professional Athlete",
+                                "icon_name": "IconBriefcaseStroke"
+                            }
+                        ]
+                    },
+                    "tipjar_settings": {
+                        "is_enabled": false,
+                        "bandcamp_handle": "",
+                        "bitcoin_handle": "",
+                        "cash_app_handle": "",
+                        "ethereum_handle": "",
+                        "gofundme_handle": "",
+                        "patreon_handle": "",
+                        "pay_pal_handle": "",
+                        "venmo_handle": ""
+                    },
+                    "verified_phone_status": false
+                }
+            }
+        },
+        "unmention_data": {},
+        "edit_control": {
+            "edit_tweet_ids": [
+                "1300077228319887360"
+            ],
+            "editable_until_msecs": "1598799340155",
+            "is_edit_eligible": true,
+            "edits_remaining": "5"
+        },
+        "is_translatable": false,
+        "views": {
+            "state": "Enabled"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "legacy": {
+            "bookmark_count": 11,
+            "bookmarked": false,
+            "created_at": "Sun Aug 30 14:25:40 +0000 2020",
+            "conversation_id_str": "1300077228319887360",
+            "display_text_range": [
+                0,
+                82
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            68,
+                            82
+                        ],
+                        "text": "ChessOlympiad"
+                    }
+                ],
+                "symbols": [],
+                "timestamps": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 21809,
+            "favorited": false,
+            "full_text": "We are the Champions!! \ud83c\uddee\ud83c\uddf3\ud83e\udd47Super happy! \nCongrats to Russia as well! #ChessOlympiad",
+            "is_quote_status": false,
+            "lang": "en",
+            "quote_count": 386,
+            "reply_count": 499,
+            "retweet_count": 2782,
+            "retweeted": false,
+            "user_id_str": "144883197",
+            "id_str": "1300077228319887360"
+        }
+    }
+}

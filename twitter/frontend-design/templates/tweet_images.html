@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Image Analysis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 2rem;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #1DA1F2;
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+            border-radius: 0 0 10px 10px;
+        }
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .image-card {
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+        .image-card:hover {
+            transform: translateY(-3px);
+        }
+        .tweet-image {
+            max-width: 100%;
+            max-height: 300px;
+            object-fit: contain;
+            border-radius: 5px;
+        }
+        .question-form {
+            display: none;
+            margin-top: 1rem;
+        }
+        .answer-container {
+            display: none;
+            margin-top: 1rem;
+        }
+        .loading-indicator {
+            display: none;
+        }
+        .suggestion-badge {
+            cursor: pointer;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container text-center">
+            <h1>Tweet Image Analysis</h1>
+            <p class="lead">Analyze images from tweets with AI-powered insights</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="form-container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Tweet Image Analysis</li>
+                        </ol>
+                    </nav>
+
+                    {% if error %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error }}
+                    </div>
+                    {% endif %}
+
+                    {% if success %}
+                    <div class="alert alert-success" role="alert">
+                        {{ success }}
+                    </div>
+                    {% endif %}
+
+                    {% if not images %}
+                    <form method="POST" action="/tweet_images" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="tweet_json" class="form-label">Upload Twitter JSON File</label>
+                            <input type="file" class="form-control" id="tweet_json" name="tweet_json" accept=".json" required>
+                            <div class="form-text">Upload the JSON file created by the Twitter data extraction tool.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Extract & Analyze Images</button>
+                    </form>
+                    {% endif %}
+                    
+                    {% if images %}
+                    <div class="alert alert-info mb-4">
+                        <h5>How to use:</h5>
+                        <p>Click "Ask Question" under any image to analyze its content. You can ask about what's in the image, text content, or check for potentially harmful content.</p>
+                    </div>
+                    
+                    <div class="row">
+                        {% for image in images %}
+                        <div class="col-md-6">
+                            <div class="card image-card">
+                                <div class="card-body">
+                                    <div class="text-center mb-3">
+                                        <img src="/images/{{ image.filename }}" alt="Tweet image" class="tweet-image">
+                                    </div>
+                                    
+                                    <p class="text-muted small">From Tweet ID: {{ image.tweet_id }}</p>
+                                    
+                                    <button class="btn btn-sm btn-outline-primary ask-button" data-image-path="{{ image.path }}">
+                                        Ask About This Image
+                                    </button>
+                                    
+                                    <div id="question-form-{{ loop.index }}" class="question-form">
+                                        <div class="input-group mb-2">
+                                            <input type="text" class="form-control" id="question-{{ loop.index }}" placeholder="What's in this image?">
+                                            <button class="btn btn-primary submit-question" data-image-path="{{ image.path }}" data-form-id="{{ loop.index }}">
+                                                Submit
+                                            </button>
+                                        </div>
+                                        
+                                        <div class="suggestion-container mb-3">
+                                            <small class="text-muted d-block mb-2">Suggested questions:</small>
+                                            <span class="badge bg-light text-dark suggestion-badge" data-form-id="{{ loop.index }}">What text is in this image?</span>
+                                            <span class="badge bg-light text-dark suggestion-badge" data-form-id="{{ loop.index }}">Does this image contain harmful content?</span>
+                                            <span class="badge bg-light text-dark suggestion-badge" data-form-id="{{ loop.index }}">What are the main colors in this image?</span>
+                                            <span class="badge bg-light text-dark suggestion-badge" data-form-id="{{ loop.index }}">What is the size and orientation of this image?</span>
+                                        </div>
+                                        
+                                        <div id="loading-{{ loop.index }}" class="loading-indicator">
+                                            <div class="d-flex align-items-center">
+                                                <div class="spinner-border spinner-border-sm text-primary me-2" role="status"></div>
+                                                <span>Analyzing...</span>
+                                            </div>
+                                        </div>
+                                        
+                                        <div id="answer-{{ loop.index }}" class="answer-container">
+                                            <div class="card bg-light">
+                                                <div class="card-body">
+                                                    <h6 class="card-subtitle mb-2 text-muted">Analysis Result:</h6>
+                                                    <p class="card-text answer-text"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-3 mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">Twitter Content Analysis Tool &copy; 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Show question form when "Ask Question" is clicked
+            document.querySelectorAll('.ask-button').forEach(button => {
+                button.addEventListener('click', function() {
+                    const imagePath = this.getAttribute('data-image-path');
+                    const formId = this.nextElementSibling.id;
+                    const form = document.getElementById(formId);
+                    
+                    console.log('Image path:', imagePath);  // Debug
+                    console.log('Form ID:', formId);        // Debug
+                    
+                    // Toggle visibility
+                    if (form.style.display === 'block') {
+                        form.style.display = 'none';
+                    } else {
+                        // Hide all other forms first
+                        document.querySelectorAll('.question-form').forEach(f => {
+                            f.style.display = 'none';
+                        });
+                        form.style.display = 'block';
+                    }
+                });
+            });
+            
+            // Handle suggestion clicks
+            document.querySelectorAll('.suggestion-badge').forEach(badge => {
+                badge.addEventListener('click', function() {
+                    const formId = this.getAttribute('data-form-id');
+                    const questionInput = document.getElementById(`question-${formId}`);
+                    questionInput.value = this.textContent;
+                });
+            });
+            
+            // Handle question submission
+            document.querySelectorAll('.submit-question').forEach(button => {
+                button.addEventListener('click', function() {
+                    const imagePath = this.getAttribute('data-image-path');
+                    const formId = this.getAttribute('data-form-id');
+                    const questionInput = document.getElementById(`question-${formId}`);
+                    const question = questionInput.value.trim();
+                    
+                    console.log('Submitting question for image:', imagePath);  // Debug
+                    console.log('Question:', question);                        // Debug
+                    
+                    if (!question) {
+                        alert('Please enter a question');
+                        return;
+                    }
+                    
+                    // Show loading indicator
+                    const loadingIndicator = document.getElementById(`loading-${formId}`);
+                    loadingIndicator.style.display = 'block';
+                    
+                    // Hide previous answer
+                    const answerContainer = document.getElementById(`answer-${formId}`);
+                    answerContainer.style.display = 'none';
+                    
+                    // Send AJAX request
+                    fetch('/ask_image', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: `image_path=${encodeURIComponent(imagePath)}&question=${encodeURIComponent(question)}`
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        // Hide loading indicator
+                        loadingIndicator.style.display = 'none';
+                        
+                        // Display the answer
+                        const answerText = answerContainer.querySelector('.answer-text');
+                        if (data.error) {
+                            answerText.textContent = `Error: ${data.error}`;
+                        } else {
+                            answerText.textContent = data.answer;
+                        }
+                        answerContainer.style.display = 'block';
+                    })
+                    .catch(error => {
+                        loadingIndicator.style.display = 'none';
+                        console.error('Error:', error);
+                        alert('An error occurred while processing your question: ' + error.message);
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
